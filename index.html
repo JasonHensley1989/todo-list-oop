@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-    <script src="/script.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="styles.css" />
 <body>
     <!-- top div is input and form -->
-    <div class="container">
-        <h1 class="title">TO DO LIST USING OOP</h1>
-        <form class="form">
-            <input type="text" class="textInput topGroup" placeholder="Enter New Item">
-            <button class="submit topGroup">Submit</button>
+    <div class="container" id="container">
+        <h1 class="title" id="title">TO DO LIST USING OOP</h1>
+        <form class="form" id="form">
+            <input type="text" id= "textInput"class="textInput topGroup" placeholder="Enter New Item">
+            <button class="submit topGroup" id="submit topGroup">Submit</button>
         </form>
     </div>
     <!-- second div is a list to hold items -->
-    <div class="list">
-        <div class="toDo">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, nisi porro maiores rem sint quae impedit corrupti aliquid illum incidunt quas quod consectetur magnam, praesentium inventore veritatis. Nihil, quas nulla!</p>
-            <button class="deleteBtn">Delete</button>
+    <div class="list" id="list">
+        <div class="toDo" id="toDo">
+            <p class="firstToDo" id="firstToDo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, nisi porro maiores rem sint quae impedit corrupti aliquid illum incidunt quas quod consectetur magnam, praesentium inventore veritatis. Nihil, quas nulla!</p>
+            <button class="deleteBtn" id="deleteBtn">Delete</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
