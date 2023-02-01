@@ -30,6 +30,28 @@ body {
     transform: scale(1.25);
 }
 
-/* .topGroup {
-    height: 50px;
-} */
+/* Code below is for list styling */
+
+.list {
+    /* background-color: teal; */
+   /* border: 2px solid black; */
+   display: flex;
+   justify-content: center;
+}
+
+.toDo {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.toDo button {
+   margin-left: 10px;
+}
+
+
+
