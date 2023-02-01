@@ -1,0 +1,9 @@
+body {
+    background-color: skyblue;
+    color: navy;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
